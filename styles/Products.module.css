@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* ถ้าเนื้อหามันเกิดก็จะตบลงมาบรรทัดใหม่ */
+    justify-content: center;
+}
+
+.container div { /* ตัวนี้คือสินค่าแต่ละรายการ  อันนี้คือตั้งขนาดกล่อง */
+    width: 350px;
+    height: 350px;
+    margin: 30px 15px;
+    background-color: #333;
+}
+
+.title{
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container div:hover {
+    background: orange;
+}

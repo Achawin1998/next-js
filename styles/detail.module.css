@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+
+.detail {
+    padding-left: 25px  ;
+    
+}
+
+.image{
+    margin-top: 10px;
+    padding-right: 15px;
+}
